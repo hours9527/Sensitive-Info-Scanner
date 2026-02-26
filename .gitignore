@@ -1,0 +1,25 @@
+# 基础 Python 忽略规则
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境 (如果你用了的话)
+venv/
+env/
+.env
+
+# 开发工具和系统文件
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# 扫描结果和测试文件 (防止不小心把别人网站的敏感信息公开了)
+*.json
+*.txt
+!dict.txt 
+# 注意：上一行的 !dict.txt 表示排除 dict.txt 被忽略，因为我们需要把测试字典传上去给大家用
+
+# 个人配置文件 (极其重要！你的 Token 绝对不能再上去了)
+config.ini
+secrets.yaml

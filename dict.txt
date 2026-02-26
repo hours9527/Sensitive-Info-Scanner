@@ -1,0 +1,9 @@
+robots.txt
+.env
+.git/config
+backup.zip
+index.php
+index.html
+admin/
+wwwroot.rar
+config.php.bak
